@@ -4,8 +4,10 @@
     height: 90px;
     //background: rgb(75, 35, 107);
     //background-color: #1F1B38;
-    background-color: rgb(54, 48, 95);
-    border-bottom: 2px solid rgb(216, 100, 54);
+    background-color:  #2e3141;
+    //background-color: rgb(54, 48, 95);
+   // border-bottom: 2px solid #d86436;
+    border-bottom: 1px solid  rgb(132, 48, 139);
     //position: fixed;
   
     .nav-container {
@@ -43,7 +45,26 @@
           font-size: 1.6rem;
           color: white;
           text-decoration: none;
+
+
+          background-color: rgb(132, 48, 139);
+            color: #eeeeee;
+            padding: 0.3rem 1rem;
+            font-size: 1.6rem;
+            border-radius: 0.4rem;
+            margin: 0 1rem;
+            cursor: pointer;
+            transition: background-color 700ms;
+            &:hover{
+                color:rgb(15, 10, 63);
+                background-color: lightblue;
+            }
         }
       }
     }
   } // .main-navigation
+
+  .line{
+      height: 4px;
+      border-bottom: 1px solid  rgb(132, 48, 139);
+  }
