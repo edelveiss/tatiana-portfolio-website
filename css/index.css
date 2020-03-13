@@ -135,7 +135,7 @@ table {
 html {
   font-size: 62.5%;
   font-family: 'Roboto', sans-serif;
-  color: #eeeeee;
+  color: #f4f4f4;
 }
 body {
   width: 100%;
@@ -282,9 +282,24 @@ img {
   align-items: center;
   flex-direction: column;
 }
-#banner .inner .banner-description,
 #banner .inner .banner-title {
-  margin-top: 6%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 6rem;
+}
+#banner .inner .banner-title h1 {
+  font-size: 10rem;
+  opacity: 0.2;
+}
+#banner .inner .banner-title h6 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+#banner .inner .banner-title .full-stack {
+  margin-bottom: 2rem;
+}
+#banner .inner .banner-title .web-developer {
+  line-height: 0.6;
 }
 #banner .inner p a {
   text-decoration: dotted;
@@ -394,8 +409,11 @@ img {
 .portfolio-item .portfolio-description {
   flex: 1;
 }
-.portfolio-item .portfolio-description h1 {
-  font-size: 3rem;
+.portfolio-item .portfolio-description a {
+  margin-top: 3rem;
+}
+.portfolio-item .portfolio-description h2 {
+  font-size: 2.7rem;
   font-weight: 300;
   margin: 1rem 0;
 }
@@ -406,14 +424,17 @@ img {
   opacity: 0.3;
 }
 .portfolio-item .portfolio-description .more-details {
-  margin-top: 2.3rem;
+  padding-top: 3rem;
   font-size: 1.5rem;
   text-transform: uppercase;
   opacity: 0.8;
   transition: color 700ms;
 }
 .portfolio-item .portfolio-description .more-details:hover {
-  color: rgba(128, 214, 70, 0.938);
+  color: #cc70d4;
+}
+.portfolio-item .portfolio-description #view-project {
+  margin-top: 1.5rem;
 }
 #work-history {
   font-family: 'Lato', sans-serif;
@@ -479,6 +500,28 @@ img {
 .contact form input[type="submit"]:hover {
   color: #0f0a3f;
   background-color: lightblue;
+}
+address {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+address .address {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 2rem;
+}
+address .address i {
+  color: #f4f4f4;
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+  transition: color 650ms;
+}
+address .address i:hover {
+  color: #7fd158;
 }
 .copyright {
   width: 100%;
