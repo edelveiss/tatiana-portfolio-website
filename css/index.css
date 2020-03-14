@@ -364,7 +364,7 @@ img {
 }
 .skills .section-heading h6 {
   border-top: 1px solid white;
-  width: 400px;
+  width: 40rem;
   align-content: center;
 }
 .skills .my-skills {
@@ -390,6 +390,20 @@ img {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 2rem 0 2rem 0;
+}
+.skills .my-skills .skill h1:hover {
+  color: #7fd158;
+}
+.portfolio .section-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.portfolio .section-heading h6 {
+  border-top: 1px solid white;
+  width: 50rem;
+  align-content: center;
 }
 .portfolio-item {
   display: flex;
@@ -436,6 +450,17 @@ img {
 .portfolio-item .portfolio-description #view-project {
   margin-top: 1.5rem;
 }
+.experience .section-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.experience .section-heading h6 {
+  border-top: 1px solid white;
+  width: 70rem;
+  align-content: center;
+}
 #work-history {
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
@@ -449,7 +474,6 @@ img {
 }
 #work-history tr:nth-child(odd) {
   background-color: #43485f;
-  cursor: pointer;
   transition: background-color 700ms;
 }
 #work-history tr:nth-child(odd):hover {
@@ -457,7 +481,6 @@ img {
 }
 #work-history tr:nth-child(even) {
   background-color: #585e7d;
-  cursor: pointer;
   transition: background-color 700ms;
 }
 #work-history tr:nth-child(even):hover {
@@ -470,6 +493,18 @@ img {
   text-align: left;
   background-color: #2e3141;
   color: white;
+}
+.contact .section-heading {
+  margin-bottom: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .section-heading h6 {
+  border-top: 1px solid white;
+  width: 30rem;
+  align-content: center;
 }
 .contact form {
   width: 70%;
