@@ -8,32 +8,30 @@ address{
     font-size: 2rem;
     
     i{
-        color: #f4f4f4;
+        color: @font-color;
         margin-bottom: 1rem;
         margin-right: 3rem;
         transition: color 650ms;
 &:hover{
-    color: #7fd158;
+    color: @green-hover;
 }
         
     }
-    // .fa-home:hover{
-    //     color: #7fd158;
-    // }
+    
    }
     
 }
 .copyright{
     width: 100%;
     text-align: center;
-    //background-color: lightcoral;
+   
     padding: 2rem 0;
     position: relative;
-    //border-top: 1px solid #d86436;
-    border-top: 1px solid  rgb(132, 48, 139);
+    
+    border-top: 1px solid  @nav-bg;
 
 }
 .line-bottom{
     height: 4px;
-    border-top: 1px solid  rgb(132, 48, 139);
+    border-top: 1px solid  @nav-bg;
 }

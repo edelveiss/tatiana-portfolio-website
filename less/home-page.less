@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100vw;
     max-width: 100%;
+    //---------------
     
     // background: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("../img/california-home.jpg") no-repeat center center/cover;
     
@@ -37,16 +38,14 @@
                     }
                 }
         
-        p{
-            a{
-                text-decoration: dotted;
-            }
-        }
+        
     }
 
 }
 
-
+#about{
+    height: 6rem;
+}
 .about {
 .container{
     display:flex;
@@ -122,12 +121,12 @@
 
 //skills section
 .skills{
-    margin-top: 10rem;
+    margin-top: 8rem;
     .section-heading{
         .custom-layout(center,center);
         flex-direction: column;
         h6{
-            border-top: 1px solid white;
+            border-top: 1px solid @white;
             width: 40rem;
             align-content: center;
         }
@@ -148,7 +147,7 @@
         flex-direction: column;
         width: 30%;
         text-align: center;
-       // padding: 2rem;
+       
         
         h1{
 
@@ -168,6 +167,9 @@
 }
 
 //portfolio section
+#portfolio{
+    height: 4rem;
+}
 .portfolio{
     .section-heading{
         .custom-layout(center,center);
@@ -236,13 +238,15 @@
 
 
 //experience section
-
+#experience{
+    height: 4rem;
+}
 .experience{
     .section-heading{
         .custom-layout(center,center);
         flex-direction: column;
         h6{
-            border-top: 1px solid white;
+            border-top: 1px solid @white;
             width: 70rem;
             align-content: center;
         }
@@ -260,20 +264,20 @@
   }
   tr{
       &:nth-child(odd) {
-    background-color: lighten(#2e3141, 10%);
+    background-color: lighten(@main-bg, 10%);
     //cursor: pointer;
     transition: background-color 700ms;
     &:hover{
-        background-color: lighten(#2e3141, 50%);
+        background-color: lighten(@main-bg, 50%);
     }
       }
 
       &:nth-child(even) {
-        background-color: lighten(#2e3141, 20%);
+        background-color: lighten(@main-bg, 20%);
        // cursor: pointer;
         transition: background-color 700ms;
         &:hover{
-            background-color: lighten(#2e3141, 40%);
+            background-color: lighten(@main-bg, 40%);
         }
       
     }
@@ -283,8 +287,8 @@
         padding-left: 2%;
         padding-bottom: 1%;
         text-align: left;
-        background-color: #2e3141;
-        color: white;
+        background-color: @main-bg;
+        color: @white;
     }
 }
 
@@ -293,6 +297,9 @@
 
 
 //contact section
+#contact{
+    height: 3rem;
+}
 .contact{
    // background-color: #f4f4f4;
    .section-heading{
@@ -300,7 +307,7 @@
        .custom-layout(center,center);
         flex-direction: column;
         h6{
-            border-top: 1px solid white;
+            border-top: 1px solid @white;
             width: 30rem;
             align-content: center;
         }
@@ -321,7 +328,7 @@
         }
         input[type="submit"]{
             width: initial;
-            background-color: rgb(132, 48, 139);
+            background-color: @purple;
             color: #eeeeee;
             padding: 1rem 2rem;
             font-size: 1.6rem;

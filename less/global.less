@@ -10,15 +10,15 @@
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
     //color: #eeeeee;
-    color: #f4f4f4;
+    color: @font-color;
   }
   body{
       width: 100%;
       height: 100%;
     //   background: url("img/bg.png") no-repeat center fixed;
     //   background-size: cover;
-    background-color: #2e3141;
-    //background-color: #1F1B38;
+    background-color: @main-bg;
+    
   }
 
 
@@ -31,9 +31,7 @@ textarea {
     font-weight: 300;
     line-height: 1.65;
 }
-// #p-title span {
-//     font-weight: bold;
-// }
+
   
   html,
   body {
@@ -51,9 +49,9 @@ padding: 6rem 0;
   h3,
   h4,
   h5 {
-    //font-family: "Indie Flower", cursive;
+   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    //font-family: 'El Messiri', sans-serif;
+    
   }
   
   h1 {
@@ -61,8 +59,8 @@ padding: 6rem 0;
     transition: color 700ms;
                         &:hover{
                             
-                            //color:rgb(132, 48, 139);
-                            color:rgb(192, 38, 206);
+                           
+                            color:@h1-hover;
                             opacity: 0.6;
                         }
   }
@@ -89,7 +87,7 @@ padding: 6rem 0;
     line-height: 1.5;
     font-size: 1.8rem;
     font-weight: 300;
-    //padding-bottom: 10px;
+    
   }
   
   img {
@@ -116,7 +114,15 @@ padding: 6rem 0;
     
 
   }
-
+// .fixed-menu{
+//     margin-top:150px;
+//     border: 1px solid red;
+//     width: 100vw;
+//     margin: 0 auto;
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: wrap;
+// }
   .container {
     
     width: 90%;
@@ -154,17 +160,3 @@ padding: 6rem 0;
         
     }
 }
-// .section-heading{
-//     h6{
-//         border-top: 1px solid  rgb(132, 48, 139);
-//     }
-// }
-
-// .section-heading h1{
-//     font-size: 3.5rem;
-//         color: rgba(white, white, white, 0.3);
-//         text-transform: uppercase;
-//         font-weight: 300;
-//         position: relative;
-//         margin-bottom: 1rem;
-// }

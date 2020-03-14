@@ -230,6 +230,9 @@ img {
   height: 90px;
   background-color: #2e3141;
   border-bottom: 1px solid #84308b;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
 }
 .main-navigation .nav-container {
   height: 100%;
@@ -301,8 +304,8 @@ img {
 #banner .inner .banner-title .web-developer {
   line-height: 0.6;
 }
-#banner .inner p a {
-  text-decoration: dotted;
+#about {
+  height: 6rem;
 }
 .about .container {
   display: flex;
@@ -354,7 +357,7 @@ img {
   color: #bd4bda;
 }
 .skills {
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 .skills .section-heading {
   display: flex;
@@ -363,7 +366,7 @@ img {
   flex-direction: column;
 }
 .skills .section-heading h6 {
-  border-top: 1px solid white;
+  border-top: 1px solid #FFFFFF;
   width: 40rem;
   align-content: center;
 }
@@ -393,6 +396,9 @@ img {
 }
 .skills .my-skills .skill h1:hover {
   color: #7fd158;
+}
+#portfolio {
+  height: 4rem;
 }
 .portfolio .section-heading {
   display: flex;
@@ -450,6 +456,9 @@ img {
 .portfolio-item .portfolio-description #view-project {
   margin-top: 1.5rem;
 }
+#experience {
+  height: 4rem;
+}
 .experience .section-heading {
   display: flex;
   justify-content: center;
@@ -457,7 +466,7 @@ img {
   flex-direction: column;
 }
 .experience .section-heading h6 {
-  border-top: 1px solid white;
+  border-top: 1px solid #FFFFFF;
   width: 70rem;
   align-content: center;
 }
@@ -492,7 +501,10 @@ img {
   padding-bottom: 1%;
   text-align: left;
   background-color: #2e3141;
-  color: white;
+  color: #FFFFFF;
+}
+#contact {
+  height: 3rem;
 }
 .contact .section-heading {
   margin-bottom: 1%;
@@ -502,7 +514,7 @@ img {
   flex-direction: column;
 }
 .contact .section-heading h6 {
-  border-top: 1px solid white;
+  border-top: 1px solid #FFFFFF;
   width: 30rem;
   align-content: center;
 }
