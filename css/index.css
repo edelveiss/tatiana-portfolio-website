@@ -320,6 +320,16 @@ img {
 .about .container .about-details {
   width: 50%;
 }
+.about .container .about-details .contact-link {
+  color: #d165d1;
+  transition: color 700ms;
+  transition: background-color 700ms;
+  border-radius: 0.4rem;
+}
+.about .container .about-details .contact-link:hover {
+  color: #0f0a3f;
+  background-color: lightblue;
+}
 .about .container .about-details .about-heading {
   text-align: center;
   text-transform: uppercase;
