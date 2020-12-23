@@ -134,7 +134,7 @@ table {
 }
 html {
   font-size: 62.5%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #f4f4f4;
 }
 body {
@@ -162,7 +162,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -210,7 +210,7 @@ img {
 }
 .section-heading {
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
 }
 .section-heading h1 {
   font-size: 3.5rem;
@@ -307,6 +307,9 @@ img {
 #about {
   height: 6rem;
 }
+.about {
+  margin-top: 5rem;
+}
 .about .container {
   display: flex;
   align-items: center;
@@ -392,10 +395,9 @@ img {
 .skills .my-skills .skill {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   width: 30%;
-  text-align: center;
 }
 .skills .my-skills .skill h1 {
   font-size: 2rem;
@@ -453,6 +455,11 @@ img {
   font-weight: 300;
   opacity: 0.3;
 }
+.portfolio-item .portfolio-description ul {
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  list-style-type: square;
+}
 .portfolio-item .portfolio-description .more-details {
   padding-top: 3rem;
   font-size: 1.5rem;
@@ -481,7 +488,7 @@ img {
   align-content: center;
 }
 #work-history {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 2rem;
   border-collapse: collapse;
   width: 100%;
@@ -560,7 +567,7 @@ img {
 }
 address {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
 }
@@ -570,6 +577,7 @@ address .address {
   align-items: flex-start;
   flex-direction: column;
   font-size: 2rem;
+  margin-left: 8rem;
 }
 address .address i {
   color: #f4f4f4;
@@ -586,6 +594,10 @@ address .address i:hover {
   padding: 2rem 0;
   position: relative;
   border-top: 1px solid #84308b;
+  transition: color 650ms;
+}
+.copyright:hover {
+  color: #84308b;
 }
 .line-bottom {
   height: 4px;
